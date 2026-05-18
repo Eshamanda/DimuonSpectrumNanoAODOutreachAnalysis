@@ -1,5 +1,9 @@
 name: analysis
+
 channels:
   - conda-forge
+
 dependencies:
-  - root=6.28.00
+  - python=3.10
+  - root
+  - jupyter
